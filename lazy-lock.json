@@ -1,0 +1,16 @@
+{
+  "darkrose.nvim": { "branch": "main", "commit": "ce6ceb55332862e180264fa534d2ce4d70f02db2" },
+  "doom-one.nvim": { "branch": "main", "commit": "2d15798d1eccdaf12c2cb7dda571c5b0ae65a257" },
+  "dropbar.nvim": { "branch": "master", "commit": "22382f44f8ce0320d38023c6a68f3ef4087c8c10" },
+  "horizon.nvim": { "branch": "main", "commit": "414f887f9171e842196d595d25f7d1f020e61208" },
+  "lazy.nvim": { "branch": "main", "commit": "7967abe55752aa90532e6bb4bd4663fe27a264cb" },
+  "monokai.nvim": { "branch": "master", "commit": "b8bd44d5796503173627d7a1fc51f77ec3a08a63" },
+  "moonlight.nvim": { "branch": "pure-lua", "commit": "e24e4218ec680b6396532808abf57ca0ada82e66" },
+  "nvim-autopairs": { "branch": "master", "commit": "ee297f215e95a60b01fde33275cc3c820eddeebe" },
+  "poimandres.nvim": { "branch": "main", "commit": "a488957d803943a4201ac3b774913fcafa9e6b3a" },
+  "resession.nvim": { "branch": "master", "commit": "c4d92a57b3936a2d6e1c087dbd6b670da2b1b082" },
+  "telescope-fzf-native.nvim": { "branch": "main", "commit": "cf48d4dfce44e0b9a2e19a008d6ec6ea6f01a83b" },
+  "telescope-ui-select.nvim": { "branch": "master", "commit": "6e51d7da30bd139a6950adf2a47fda6df9fa06d2" },
+  "todo-comments.nvim": { "branch": "main", "commit": "ae0a2afb47cf7395dc400e5dc4e05274bf4fb9e0" },
+  "zen-mode.nvim": { "branch": "main", "commit": "29b292bdc58b76a6c8f294c961a8bf92c5a6ebd6" }
+}
