@@ -8,45 +8,14 @@ return {
   { "akinsho/horizon.nvim", version= "*" },
   { "sho-87/kanagawa-paper.nvim", lazy = false, opts = {}},
   { 'tanvirtin/monokai.nvim' },
-  { 'olivercederborg/poimandres.nvim',
-      lazy = false,
-      priority = 1000,
-      config = function() require('poimandres').setup {} end
-  },
   { 'shaunsingh/moonlight.nvim' },
   {'rebelot/kanagawa.nvim'},
-  {
-    'ribru17/bamboo.nvim',
-    lazy = false,
-    priority = 1000,
-    config = function()
-      require('bamboo').setup {
-        style = 'vulgaris',
-      }
-      require('bamboo').load()
-    end,
-  },
-  {
-    "water-sucks/darkrose.nvim",
-    lazy = false,
-    priority = 1000,
-  },
+  {"water-sucks/darkrose.nvim"},
   {'NTBBloodbath/doom-one.nvim'},
   {"DeviusVim/deviuspro.nvim"},
-  { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...},
-  {
-  "xero/miasma.nvim",
-  lazy = false,
-  priority = 1000,
-  config = function()
-      vim.cmd("colorscheme miasma")
-    end,
-  },
-  {
-    "dgox16/oldworld.nvim",
-    lazy = false,
-    priority = 1000,
-  },
+  {"ellisonleao/gruvbox.nvim"},
+  {"dgox16/oldworld.nvim"},
   {"sainttttt/flesh-and-blood"},
   { 'Shadorain/shadotheme' },
+  {"ficcdaf/ashen.nvim"}
 }
