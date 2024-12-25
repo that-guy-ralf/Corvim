@@ -8,21 +8,7 @@ return {
   lazy = false,
   ---@type snacks.Config
   opts = {
-    dashboard = {
-      sections = {
-        {
-          section = "terminal",
-          cmd = "chafa $XDG_CONFIG_HOME/nvim/corvim.jpg --format symbols --symbols vhalf --size 60x17 --stretch; sleep .1",
-          height = 17,
-          padding = 1,
-        },
-        {
-          pane = 2,
-          { section = "keys", gap = 1, padding = 1 },
-          { section = "startup" },
-        },
-      },
-    },
+    dashboard = { enabled = true },
     bigfile = { enabled = true },
     notifier = {
       enabled = true,

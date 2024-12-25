@@ -48,4 +48,5 @@ return {
     priority = 1000,
   },
   {"sainttttt/flesh-and-blood"},
+  { 'Shadorain/shadotheme' },
 }
