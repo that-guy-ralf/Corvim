@@ -2,7 +2,8 @@
     "diagnostics.globals": [
         "vim",
         "local",
-        "Snacks"
+        "Snacks",
+        "opts"
     ],
     "diagnostics.disable": [
         "undefined-doc-name"

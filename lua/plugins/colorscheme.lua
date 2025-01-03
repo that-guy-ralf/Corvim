@@ -1,6 +1,5 @@
 return {
   { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
-  { "baliestri/aura-theme", name = "aura-theme" },
   { "rose-pine/neovim", name = "rose-pine" },
   { "catppuccin/nvim", name = "catppuccin" },
   { 'sainnhe/everforest', lazy = false, priority = 1000 },
@@ -17,5 +16,9 @@ return {
   {"dgox16/oldworld.nvim"},
   {"sainttttt/flesh-and-blood"},
   { 'Shadorain/shadotheme' },
-  {"ficcdaf/ashen.nvim"}
+  {"ficcdaf/ashen.nvim"},
+  { 'dasupradyumna/midnight.nvim', lazy = false, priority = 1000 },
+  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
+  {"nyoom-engineering/oxocarbon.nvim"},
+  { "EdenEast/nightfox.nvim" }
 }
