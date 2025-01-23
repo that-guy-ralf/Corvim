@@ -1,17 +1,4 @@
-return {
-  "folke/snacks.nvim",
-  dependencies = {
-    { 'echasnovski/mini.icons', version = false },
-    {'nvim-tree/nvim-web-devicons'},
-  },
-  priority = 1000,
-  lazy = false,
-  ---@type snacks.Config
-  opts = {
-    dashboard = {
-      enabled = true,
-      header = [[
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+local header = [[
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ░░░░░██╗░██╗███████╗██╗░░░░░██╗░░░░░░█████╗░░░░░░
 ░░░░░██║░██║██╔════╝██║░░░░░██║░░░░░██╔══██╗░░░░░
@@ -28,8 +15,30 @@ return {
 ░░░╚██╔╝░╚██╔╝░╚█████╔╝██║░░██║███████╗██████╔╝░░
 ░░░░╚═╝░░░╚═╝░░░╚════╝░╚═╝░░╚═╝╚══════╝╚═════╝░░░
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-      ]],
+]]
+
+return {
+  "folke/snacks.nvim",
+  dependencies = {
+    { 'echasnovski/mini.icons', version = false },
+    {'nvim-tree/nvim-web-devicons'},
+  },
+  priority = 1000,
+  lazy = false,
+  ---@type snacks.Config
+
+  opts = {
+    dashboard = {
+      enabled = true,
+      preset = {
+        header = header
+      },
+      sections = {
+        { section = "header" },
+        -- { icon = " ", title = "Recent Files", section = "recent_files", indent = 2, padding = 2},
+        -- { icon = " ", title = "Projects", section = "projects", indent = 2, padding = 1 },
+        { section = "startup" },
+      },
     },
     bigfile = { enabled = true },
     notifier = {
@@ -48,7 +57,6 @@ return {
   keys = {
     { "<leader>.",  function() Snacks.scratch() end,                 desc = "Toggle Scratch Buffer" },
     { "<leader>S",  function() Snacks.scratch.select() end,          desc = "Select Scratch Buffer" },
-    -- { "<leader>n",  function() Snacks.notifier.show_history() end, desc = "Notification History" },
     { "<leader>bd", function() Snacks.bufdelete() end,               desc = "Delete Buffer" },
     { "<leader>cR", function() Snacks.rename.rename_file() end,      desc = "Rename File" },
     { "<leader>gB", function() Snacks.gitbrowse() end,               desc = "Git Browse" },
