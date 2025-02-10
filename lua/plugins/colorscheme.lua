@@ -19,10 +19,9 @@ return {
   {"ficcdaf/ashen.nvim"},
   { "dasupradyumna/midnight.nvim", lazy = false, priority = 1000 },
   { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
-  {"nyoom-engineering/oxocarbon.nvim"},
   { "EdenEast/nightfox.nvim" },
   {"tjdevries/colorbuddy.nvim"},
   {"Abstract-IDE/Abstract-cs"},
-  {"bradcush/nvim-base16"},
-  { "miikanissi/modus-themes.nvim" }
+  { "miikanissi/modus-themes.nvim" },
+  {"tinted-theming/tinted-vim"},
 }
