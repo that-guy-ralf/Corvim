@@ -1,9 +1,6 @@
 return {
   'aaronik/treewalker.nvim',
 
-  -- The following options are the defaults.
-  -- Treewalker aims for sane defaults, so these are each individually optional,
-  -- and setup() does not need to be called, so the whole opts block is optional as well.
   opts = {
     -- Whether to briefly highlight the node after jumping to it
     highlight = true,
