@@ -1,138 +1,63 @@
-orvim/
+# Corvim
+## 📦 Package manager
 
-<a href="https://dotfyle.com/that-guy-ralf/corvim"><img src="https://dotfyle.com/that-guy-ralf/corvim/badges/plugins?style=flat" /></a>
-<a href="https://dotfyle.com/that-guy-ralf/corvim"><img src="https://dotfyle.com/that-guy-ralf/corvim/badges/leaderkey?style=flat" /></a>
-<a href="https://dotfyle.com/that-guy-ralf/corvim"><img src="https://dotfyle.com/that-guy-ralf/corvim/badges/plugin-manager?style=flat" /></a>
+- [lazy.nvim](https://github.com/folke/lazy.nvim)
 
+## 🔌 Plugins
 
-## Install Instructions
+- [>](https://github.com/<c-/>)
+- [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
+- [colorbuddy.nvim](https://github.com/tjdevries/colorbuddy.nvim)
+- [Comment.nvim](https://github.com/numToStr/Comment.nvim)
+- [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
+- [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [lazy.nvim](https://github.com/folke/lazy.nvim)
+- [line-number-change-mode.nvim](https://github.com/sethen/line-number-change-mode.nvim)
+- [liveserver.nvim](https://github.com/ankushbhagats/liveserver.nvim)
+- [lualine-pretty-path](https://github.com/bwpge/lualine-pretty-path)
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+- [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+- [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
+- [mason.nvim](https://github.com/williamboman/mason.nvim)
+- [mdmaker.nvim](https://github.com/NStefan002/mdmaker.nvim)
+- [mini.icons](https://github.com/echasnovski/mini.icons)
+- [neoscroll.nvim](https://github.com/karb94/neoscroll.nvim)
+- [neovim](https://github.com/rose-pine/neovim)
+- [news.txt](https://github.com/doc/news.txt)
+- [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [nvim-surround](https://github.com/kylechui/nvim-surround)
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+- [nvim](https://github.com/catppuccin/nvim)
+- [obsidian.nvim](https://github.com/obsidian-nvim/obsidian.nvim)
+- [oil.nvim](https://github.com/stevearc/oil.nvim)
+- [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
+- [shadotheme](https://github.com/Shadorain/shadotheme)
+- [snacks.nvim](https://github.com/folke/snacks.nvim)
+- [telescope-symbols.nvim](https://github.com/nvim-telescope/telescope-symbols.nvim)
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+- [todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
+- [treewalker.nvim](https://github.com/aaronik/treewalker.nvim)
+- [which-key.nvim](https://github.com/folke/which-key.nvim)
+- [zen-mode.nvim](https://github.com/folke/zen-mode.nvim)
 
- > Install requires Neovim 0.9+. Always review the code before installing a configuration.
+## Colorschemes:
 
-Open Neovim with this config:
+- Rose-Pine
+- Catpuccin
+- Everforest
+- Horizon
+- Kanagawa & Kanagawa Paper
+- Monokai
+- Gruvbox
+- Ashen
+- Midnight
+- Modus Themes
 
-```sh
-NVIM_APPNAME=that-guy-ralf/Corvim/ nvim
-```
+## Custom Colorscheme (Generated from an Unsplash wallpaper with help of an LLM)
 
-## Plugins
+- Medevac
 
-### bars-and-lines
-
-+ [Bekaboo/dropbar.nvim](https://dotfyle.com/plugins/Bekaboo/dropbar.nvim)
-### colorscheme
-
-+ [ribru17/bamboo.nvim](https://dotfyle.com/plugins/ribru17/bamboo.nvim)
-+ [xero/miasma.nvim](https://dotfyle.com/plugins/xero/miasma.nvim)
-+ [tanvirtin/monokai.nvim](https://dotfyle.com/plugins/tanvirtin/monokai.nvim)
-+ [olivercederborg/poimandres.nvim](https://dotfyle.com/plugins/olivercederborg/poimandres.nvim)
-+ [sainnhe/everforest](https://dotfyle.com/plugins/sainnhe/everforest)
-+ [NTBBloodbath/doom-one.nvim](https://dotfyle.com/plugins/NTBBloodbath/doom-one.nvim)
-+ [rebelot/kanagawa.nvim](https://dotfyle.com/plugins/rebelot/kanagawa.nvim)
-+ [sho-87/kanagawa-paper.nvim](https://dotfyle.com/plugins/sho-87/kanagawa-paper.nvim)
-+ [shaunsingh/moonlight.nvim](https://dotfyle.com/plugins/shaunsingh/moonlight.nvim)
-+ [eldritch-theme/eldritch.nvim](https://dotfyle.com/plugins/eldritch-theme/eldritch.nvim)
-+ [rose-pine/neovim](https://dotfyle.com/plugins/rose-pine/neovim)
-+ [dgox16/oldworld.nvim](https://dotfyle.com/plugins/dgox16/oldworld.nvim)
-+ [catppuccin/nvim](https://dotfyle.com/plugins/catppuccin/nvim)
-### comment
-
-+ [folke/todo-comments.nvim](https://dotfyle.com/plugins/folke/todo-comments.nvim)
-+ [numToStr/Comment.nvim](https://dotfyle.com/plugins/numToStr/Comment.nvim)
-### completion
-
-+ [hrsh7th/nvim-cmp](https://dotfyle.com/plugins/hrsh7th/nvim-cmp)
-### diagnostics
-
-+ [folke/trouble.nvim](https://dotfyle.com/plugins/folke/trouble.nvim)
-### editing-support
-
-+ [windwp/nvim-autopairs](https://dotfyle.com/plugins/windwp/nvim-autopairs)
-+ [folke/zen-mode.nvim](https://dotfyle.com/plugins/folke/zen-mode.nvim)
-### file-explorer
-
-+ [nvim-neo-tree/neo-tree.nvim](https://dotfyle.com/plugins/nvim-neo-tree/neo-tree.nvim)
-+ [stevearc/oil.nvim](https://dotfyle.com/plugins/stevearc/oil.nvim)
-### fuzzy-finder
-
-+ [nvim-telescope/telescope.nvim](https://dotfyle.com/plugins/nvim-telescope/telescope.nvim)
-### git
-
-+ [lewis6991/gitsigns.nvim](https://dotfyle.com/plugins/lewis6991/gitsigns.nvim)
-### icon
-
-+ [nvim-tree/nvim-web-devicons](https://dotfyle.com/plugins/nvim-tree/nvim-web-devicons)
-### indent
-
-+ [lukas-reineke/indent-blankline.nvim](https://dotfyle.com/plugins/lukas-reineke/indent-blankline.nvim)
-### keybinding
-
-+ [folke/which-key.nvim](https://dotfyle.com/plugins/folke/which-key.nvim)
-### lsp
-
-+ [nvimtools/none-ls.nvim](https://dotfyle.com/plugins/nvimtools/none-ls.nvim)
-+ [stevearc/aerial.nvim](https://dotfyle.com/plugins/stevearc/aerial.nvim)
-+ [neovim/nvim-lspconfig](https://dotfyle.com/plugins/neovim/nvim-lspconfig)
-### lsp-installer
-
-+ [williamboman/mason.nvim](https://dotfyle.com/plugins/williamboman/mason.nvim)
-### lua-colorscheme
-
-+ [ellisonleao/gruvbox.nvim](https://dotfyle.com/plugins/ellisonleao/gruvbox.nvim)
-### markdown-and-latex
-
-+ [OXY2DEV/markview.nvim](https://dotfyle.com/plugins/OXY2DEV/markview.nvim)
-### motion
-
-+ [ggandor/lightspeed.nvim](https://dotfyle.com/plugins/ggandor/lightspeed.nvim)
-### note-taking
-
-+ [epwalsh/obsidian.nvim](https://dotfyle.com/plugins/epwalsh/obsidian.nvim)
-### nvim-dev
-
-+ [MunifTanjim/nui.nvim](https://dotfyle.com/plugins/MunifTanjim/nui.nvim)
-+ [nvim-lua/plenary.nvim](https://dotfyle.com/plugins/nvim-lua/plenary.nvim)
-### plugin-manager
-
-+ [folke/lazy.nvim](https://dotfyle.com/plugins/folke/lazy.nvim)
-### quickfix
-
-+ [stevearc/quicker.nvim](https://dotfyle.com/plugins/stevearc/quicker.nvim)
-### session
-
-+ [stevearc/resession.nvim](https://dotfyle.com/plugins/stevearc/resession.nvim)
-+ [folke/persistence.nvim](https://dotfyle.com/plugins/folke/persistence.nvim)
-### snippet
-
-+ [L3MON4D3/LuaSnip](https://dotfyle.com/plugins/L3MON4D3/LuaSnip)
-+ [rafamadriz/friendly-snippets](https://dotfyle.com/plugins/rafamadriz/friendly-snippets)
-### startup
-
-+ [goolord/alpha-nvim](https://dotfyle.com/plugins/goolord/alpha-nvim)
-### statusline
-
-+ [nvim-lualine/lualine.nvim](https://dotfyle.com/plugins/nvim-lualine/lualine.nvim)
-### syntax
-
-+ [nvim-treesitter/nvim-treesitter](https://dotfyle.com/plugins/nvim-treesitter/nvim-treesitter)
-### tabline
-
-+ [willothy/nvim-cokeline](https://dotfyle.com/plugins/willothy/nvim-cokeline)
-### terminal-integration
-
-+ [akinsho/toggleterm.nvim](https://dotfyle.com/plugins/akinsho/toggleterm.nvim)
-### utility
-
-+ [folke/noice.nvim](https://dotfyle.com/plugins/folke/noice.nvim)
-+ [rcarriga/nvim-notify](https://dotfyle.com/plugins/rcarriga/nvim-notify)
-+ [stevearc/dressing.nvim](https://dotfyle.com/plugins/stevearc/dressing.nvim)
-+ [LukasPietzschmann/telescope-tabs](https://dotfyle.com/plugins/LukasPietzschmann/telescope-tabs)
-## Language Servers
-
-+ clangd
-+ hls
-+ html
-+ lua_ls
-
-
- This readme was generated by [Dotfyle](https://dotfyle.com)
